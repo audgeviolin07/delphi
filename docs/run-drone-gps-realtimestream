@@ -17,3 +17,11 @@ Ground station end: Plug battery into drone
 		-lat and lng
 
 
+Telemetry and gps setup isolated from the drone
+
+-Mac end: plug large two-gps looking gps to mac (should automatically connect
+	-if it doesn't work then put go to application settings go to comm links and then go to add your port
+	-to see the live gps data long and lat: go to analyze tool in qground control and then go to MAVLink Inspector and then go to GPS_RAW_INT 
+	
+
+-cube end: plug circular gps into GPS2 and then plug telem into TELEM 1, also make sure u power the cube
